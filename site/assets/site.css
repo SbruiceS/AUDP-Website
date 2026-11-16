@@ -1,11 +1,11 @@
 :root {
-  --ink: #061018;
-  --panel: #0c1c2a;
-  --bone: #e7f3fb;
-  --mist: #8eb0c6;
-  --brass: #1ec8f0;
-  --line: #1a3344;
-  color-scheme: dark;
+  --ink: #ffffff;
+  --panel: #f4f8fb;
+  --bone: #10212c;
+  --mist: #3d5668;
+  --brass: #086888;
+  --line: #d5e2ea;
+  color-scheme: light;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
