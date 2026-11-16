@@ -1,10 +1,10 @@
 :root {
-  --ink: #0c1210;
-  --panel: #151c18;
-  --bone: #e8efe4;
-  --mist: #93a396;
-  --brass: #d4b06a;
-  --line: #2a3830;
+  --ink: #061018;
+  --panel: #0c1c2a;
+  --bone: #e7f3fb;
+  --mist: #8eb0c6;
+  --brass: #1ec8f0;
+  --line: #1a3344;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -16,6 +16,8 @@ body {
   font: 18px/1.55 Georgia, "Iowan Old Style", Palatino, serif;
 }
 a { color: var(--brass); }
+header a img { height: 36px; width: auto; display: block; }
+.hero-logo { height: 92px; width: auto; display: block; }
 header, main, footer { max-width: 72rem; margin: 0 auto; padding: 1.25rem; }
 header { display: flex; justify-content: space-between; gap: 1rem; align-items: center; border-bottom: 1px solid var(--line); }
 nav { display: flex; flex-wrap: wrap; gap: 0.75rem 1rem; }
