@@ -57,6 +57,8 @@ Licensing, research collaboration, and private vulnerability reports: [sbruicesi
 
 ## This site
 
-This repository is a [Jekyll](https://jekyllrb.com/) site. GitHub Pages builds it when the source is **Deploy from a branch**, branch `main`, folder **`/ (root)`**.
+The published files are plain HTML at the repository root, with `.nojekyll` so GitHub does not run a second build.
+
+Pages is not on yet. Open [Settings → Pages](https://github.com/SbruiceS/AUDP-Website/settings/pages) and choose **GitHub Actions**, the same source as [AUDP-ECM-Website](https://github.com/SbruiceS/AUDP-ECM-Website). Saving that switch is what creates the site. This GitHub connection cannot flip it. After it is saved, re-run the **pages** workflow.
 
 The pages state the public concept model. They are not a specification you can implement the private protocol from.
