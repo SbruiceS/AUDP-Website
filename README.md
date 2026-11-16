@@ -57,6 +57,6 @@ Licensing, research collaboration, and private vulnerability reports: [sbruicesi
 
 ## This site
 
-Static pages live in [`site/`](site/). GitHub Pages, if enabled from the Actions workflow, publishes that directory.
+This repository is a [Jekyll](https://jekyllrb.com/) site. GitHub Pages builds it when the source is **Deploy from a branch**, branch `main`, folder **`/ (root)`**.
 
 The pages state the public concept model. They are not a specification you can implement the private protocol from.
