@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Budget lab — AUDP</title>
+<meta name="description" content="AUDP, the ASPF Unified Device Protocol. Agriculture Service of Product Farm.">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header>
+  <a href="index.html" style="color:inherit;text-decoration:none"><strong>AUDP</strong><br><span class="kicker">ASPF</span></a>
+  <nav aria-label="Primary"><a href="problem.html">Problem</a><a href="protocol.html">Concepts</a><a href="stack.html">What we build</a><a href="field.html">On the farm</a><a href="lab.html" aria-current="page">Budget lab</a><a href="organisation.html">ASPF</a></nav>
+</header>
+<main>
+<p class="kicker">Budget lab</p>
+<h1>See the limit before anyone claims a repair.</h1>
+<p class="lede">A real CRC-16/CCITT-FALSE on a teaching reading, and the public Reed–Solomon budget. Neither one is the proprietary AUDP-ECM decoder. The four bytes are not the AUDP wire format.</p>
+<article>
+  <h2>Detect</h2>
+  <p class="mono" id="reading"></p>
+  <p id="crc-note"></p>
+  <button type="button" id="flip">Flip the low byte</button>
+</article>
+<article>
+  <h2>2e + s ≤ n − k</h2>
+  <p>Published shape: n = 31, k = 23, so the budget is 8. Tap a symbol: intact, then error. Four errors fill the example budget. A fifth does not.</p>
+  <p class="mono" id="budget"></p>
+  <p id="verdict"></p>
+  <div class="row" id="syms"></div>
+</article>
+</main>
+<footer>
+  <p>© 2026 Agriculture Service of Product Farm. Proprietary — not open source. Public concepts only.</p>
+  <p>Licensing and security: <a href="mailto:sbruicesingh@haclon.in">sbruicesingh@haclon.in</a></p>
+</footer>
+<script src="assets/lab.js"></script>
+</body>
+</html>

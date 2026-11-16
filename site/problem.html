@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The problem — AUDP</title>
+<meta name="description" content="AUDP, the ASPF Unified Device Protocol. Agriculture Service of Product Farm.">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header>
+  <a href="index.html" style="color:inherit;text-decoration:none"><strong>AUDP</strong><br><span class="kicker">ASPF</span></a>
+  <nav aria-label="Primary"><a href="problem.html" aria-current="page">Problem</a><a href="protocol.html">Concepts</a><a href="stack.html">What we build</a><a href="field.html">On the farm</a><a href="lab.html">Budget lab</a><a href="organisation.html">ASPF</a></nav>
+</header>
+<main>
+<p class="kicker">The problem</p>
+<h1>The farm fails when a packet is wrong.</h1>
+<p class="lede">Every irrigation choice, controller action, and research conclusion that depends on a field sensor is only as good as the bytes that survived the link.</p>
+<h2>Where the damage happens</h2>
+<p>Soil moisture, temperature, humidity, water, crop state, and machinery condition travel by radio, long cables, and shared channels. Interference flips symbols. A burst wipes a run of bytes. A weak signal leaves a value unknown. Sending the message again is often slow, costly, or impossible.</p>
+<h2>Silent corruption</h2>
+<p>A missing reading is visible. A corrupted reading that still parses is not. It looks like a drier field, a fuller tank, a hotter afternoon. AUDP exists so the path from sensor to decision refuses to treat damage as data.</p>
+<h2>What correct has to mean</h2>
+<ul>
+<li>Damage is detected, not averaged away.</li>
+<li>Repair stays inside a proven budget: 2e + s ≤ n − k, with a CRC as a second check.</li>
+<li>A value that cannot be verified is rejected.</li>
+<li>Noise and attackers are different problems.</li>
+</ul>
+</main>
+<footer>
+  <p>© 2026 Agriculture Service of Product Farm. Proprietary — not open source. Public concepts only.</p>
+  <p>Licensing and security: <a href="mailto:sbruicesingh@haclon.in">sbruicesingh@haclon.in</a></p>
+</footer>
+
+</body>
+</html>
